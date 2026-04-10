@@ -245,12 +245,6 @@ $analysisText = generateAnalysisText($name, $results, $countUnique);
 
     <div class="content-wrapper">
 
-        <nav class="navbar navbar-dark">
-            <div class="container">
-                <span class="navbar-brand fw-bold">PathFinderIT</span>
-            </div>
-        </nav>
-
         <div class="result-container">
             <div class="container">
 
