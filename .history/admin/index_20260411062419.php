@@ -125,11 +125,11 @@ if ($keyword != '') {
 
             </div>
         </div>
+    </div>
 
-        <!-- CREDIT FREEPIK -->
-        <div class="credit">
-            <a href="http://www.freepik.com">Designed by starline / Freepik</a>
-        </div>
+    <!-- CREDIT FREEPIK -->
+    <div class="credit">
+        <a href="http://www.freepik.com">Designed by starline / Freepik</a>
     </div>
 
     <!-- BOOTSTRAP JS -->
