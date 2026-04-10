@@ -55,14 +55,15 @@ $name = $_POST['name'];
 
 // simpan ke DB
 mysqli_query($conn, "INSERT INTO results 
-(q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,ai_score,se_score,ds_score,cn_score)
+(name,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,ai_score,se_score,ds_score,cn_score)
 VALUES
-('$q1','$q2','$q3','$q4','$q5','$q6','$q7','$q8','$q9','$q10','$q11','$q12','$ai_score','$se_score','$ds_score','$cn_score')
+('$name','$q1','$q2','$q3','$q4','$q5','$q6','$q7','$q8','$q9','$q10','$q11','$q12','$ai_score','$se_score','$ds_score','$cn_score')
 ");
 
 // kirim ke hasil
 session_start();
 $_SESSION['results'] = $results;
+$_SESSION['name'] = $name;
 
 header("Location: result.php");
 exit;
