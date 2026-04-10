@@ -2,6 +2,8 @@
 
 A web-based career interest assessment tool for computer science students. Helps you discover which IT field aligns best with your interests through a guided questionnaire.
 
+**[Try it live](https://pathfinderit.ct.ws)** - Hosted on InfinityFree
+
 ## What is This?
 
 PathFinderIT is an interactive quiz application that analyzes your preferences across four major computer science domains:
